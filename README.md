@@ -110,3 +110,42 @@ de varias líneas
 ```
 
 # 1. Tipos de datos
+
+## 1.1 Introducción
+
+En JavaScript existen dos grandes grupos de tipos de datos: los primitivos y los no primitivos
+
+#### Primitivos
+
+1. Numbers - Integers, floats
+1. Strings - Any data under single quote, double quote or backtick quote
+1. Booleans - true or false value
+1. Null - empty value or no value
+1. Undefined - a declared variable without a value
+
+#### No primitivos
+
+1. Arrays
+1. Objects
+1. Functions
+
+## 1.2 Numbers
+
+Métodos propios de los datos de tipo number:
+
+### Métodos básicos
+
+-   Suma(+): a + b
+-   Resta(-): a - b
+-   Multiplicación(_): a _ b
+-   División(/): a / b
+-   Módulo(%): a % b
+-   Potencia(**): a ** b
+
+### Métodos avanzados
+
+## 1.3 Strings
+
+### Métodos básicos
+
+### Métodos avanzados
