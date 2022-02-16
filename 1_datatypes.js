@@ -44,6 +44,11 @@ if (array1==array2){
 }else{
     console.log("Son diferentes");
 }
+
+//crear dos arrays con el mismo contenido y comparar con "==" si ambos arrays son iguales
+
+//ahora comparar el contenido de dichos arrays utilizando un bucle
+
 // crear un objeto "usuario", con tres propiedades
 var Objeto = new Object();
 Objeto.color_de_pelo = 'Negro';
@@ -61,6 +66,9 @@ console.log(gravedad);
 //incrementar una variable con otra variable con el operador  =+
 num3+=num4;
 console.log(num3);
+
+//incrementar una variable con otra variable o número con el operador  +=, mostrar por pantalla la primera variable (la incrementada)
+
 //eleva un número a otro utilizando **
 console.log(10**2);
 //eleva un número a otro utilizando un bucle
@@ -108,7 +116,7 @@ for (let index = 0; index < caracteres.length; index++) {
 console.log(caracteres.toString());
 //reemplazar Pascal por Javascript en la frase "Pascal es un lenguaje de programación moderno"
 var frase = 'Pascal es un lenguaje de programación moderno'
-console.log(replace.frase('Pascal', 'Javascript'));
+console.log(frase.replace('Pascal', 'Javascript'));
 //crear una variable con frase/cadena de caracteres y comprobar la longitud
 
 //eliminar "script" de la palabra Javascript con el método substr
