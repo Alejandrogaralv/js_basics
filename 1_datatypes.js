@@ -118,7 +118,18 @@ console.log(caracteres.toString());
 var frase = 'Pascal es un lenguaje de programación moderno'
 console.log(frase.replace('Pascal', 'Javascript'));
 //crear una variable con frase/cadena de caracteres y comprobar la longitud
-
+var cadena = [1, 2, 3, 4, 5]
+console.log(cadena.length);
 //eliminar "script" de la palabra Javascript con el método substr
+var eliminar = 'Javascript'
+eliminar=eliminar.substr(0,4);
+console.log(eliminar);
 
 //comprueba si la frase "Espero que esto me sirva para algo" contiene la palabra "algo"
+var frase2 = 'Espero que esto me sirva para algo';
+var comprobacion = frase2.search('algo');
+if (comprobacion>=0){
+    console.log("La palabra algo está en la frase");
+}else{
+    console.log("La palabra algo no está en la frase");
+}
