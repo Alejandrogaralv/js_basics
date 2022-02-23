@@ -48,7 +48,14 @@ if (array1==array2){
 //crear dos arrays con el mismo contenido y comparar con "==" si ambos arrays son iguales
 
 //ahora comparar el contenido de dichos arrays utilizando un bucle
-
+var sonIguales=true;
+for (let i = 0; i < array1.length; i++) {
+    if(array2[i] != array2[i]){
+        sonIguales=false;
+        break;
+    }
+}
+console.log(sonIguales);
 // crear un objeto "usuario", con tres propiedades
 var Objeto = new Object();
 Objeto.color_de_pelo = 'Negro';
@@ -72,16 +79,16 @@ console.log(num3);
 //eleva un número a otro utilizando **
 console.log(10**2);
 //eleva un número a otro utilizando un bucle
-num=10;
-numCuadrado=2;
-numfinal=1;
+var num=10;
+var numCuadrado=2;
+var numfinal=1;
 for (let i = 1; i <= numCuadrado; i++) {
     numfinal=numfinal*num;
 }
 console.log(numfinal);
 // generar un número aleatorio del 0 al 100
 var numAleatorio = (Math.random()*(100+1));
-console.log(parseInt(numAleatorio, 10));
+console.log(numAleatorio.toFixed(0));
 
 // genera un array de 10 números aleatorios del 0 al 100 y muestra el máximo y mínimo
 var arrayAleatorios = [];
