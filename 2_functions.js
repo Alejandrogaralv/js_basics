@@ -1,7 +1,11 @@
 console.log("2.functions: 👋 Bienvenidos, en este fichero se harán ejercicios sobre las funciones en JS");
 
 //Función saludar1, que muestre "Hola, " y un nombre
-
+var nombre = "Alejandro"
+function saludar1(nombre) {
+    return "Hola " + nombre;
+}
+console.log(saludar1);
 //Función saludar2 que devuelva "Hola, " y un nombre
 
 //Función saludar3 igual que la anterior, pero que, en caso de no recibir nombre, devolver "Hola, anónimo"
